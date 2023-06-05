@@ -196,16 +196,21 @@ const App = () => {
             <div></div>
             <div></div>
           </div>
-          <h1 
-          // this is just styling for the loading component that renders when laoding is set to true
-          style={{ color: "red", marginTop: "auto", marginBottom: "auto" }}>
+          <h1
+            // this is just styling for the loading component that renders when laoding is set to true
+            style={{
+              color: "black",
+              marginTop: "auto",
+              marginBottom: "auto",
+            }}
+          >
             Loading...
           </h1>
         </div>
       ) : (
         <>
           <div
-          // this is just styling for the main component that renders when laoding is set to fale
+            // this is just styling for the main component that renders when laoding is set to fale
             style={{
               height: "10vh",
               width: "100%",
@@ -213,14 +218,14 @@ const App = () => {
               boxShadow: "0 2px 2px -2px rgba(0,0,0,.2)",
             }}
           >
-            <h1 
-            // this is just styling for the title of the page
-            style={{ margin: 0, paddingTop: "8px", paddingLeft: "38px" }}>
+            <h1
+              // this is just styling for the title of the page
+              style={{ margin: 0, paddingTop: "8px", paddingLeft: "38px" }}>
               StoreRUs
             </h1>
           </div>
           <div
-          // this is just styling for the content component that contains all of the processed API data
+            // this is just styling for the content component that contains all of the processed API data
             style={{
               display: "flex",
               justifyContent: "center",
